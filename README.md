@@ -5,8 +5,9 @@ This project demonstrates a serverless architecture using AWS Lambda, SNS, and A
 ![image](https://github.com/user-attachments/assets/ab55720b-b300-4dd4-aa5c-6bc37cec538f)
 
 
+
 ## Features
-- A Lambda function that calculates the sum of two numbers provided in JSON payload.
+- A Lambda function that calculates the sum of two numbers provided.
 - Integration with AWS SNS to send the result via email.
 - An API Gateway that provides HTTP access to the Lambda function.
 
@@ -26,6 +27,7 @@ This project demonstrates a serverless architecture using AWS Lambda, SNS, and A
    Examples of Postman API validation & SNS Notification:
    ![image](https://github.com/user-attachments/assets/f49261b5-25bb-4377-afb6-6eedbf7198a5)
    ![Example-For-SNS-Notification](https://github.com/user-attachments/assets/8154b6c7-070c-4322-b875-375196fdce32)
+
 
 ## Delete All
 5. If you finished your work and your goal is to delete the whole infrastructure use this command:
