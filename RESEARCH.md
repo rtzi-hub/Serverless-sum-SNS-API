@@ -1,7 +1,7 @@
 # Research Exercise Deliverables
 
 ## 1. Issue Description
-The issue I faced was to expose the Lambda function to the public internet with the ability to manage security, allowing users to input two numbers and receive the result in real time. Additionally, the challenge included sending the calculated result via email notifications
+The issue I faced was to expose the Lambda function to the public internet with the ability to manage security, allowing users to input two numbers and receive the result directly to the email. Additionally, the challenge included sending the calculated result via email notifications
 
 ## 2. Proposed Solutions
 ### API Gateway
