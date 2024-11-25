@@ -13,11 +13,13 @@ This project demonstrates a serverless architecture using AWS Lambda, SNS, and A
 
 ## Deployment Steps
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/rtzi-hub/Serverless-sum-SNS-API.git
    cd serverless-sum-sns-api
    ```
 2. Deploy the infrastructure using Terraform:
+   
    ```
    terraform init
    terraform plan
@@ -31,6 +33,7 @@ This project demonstrates a serverless architecture using AWS Lambda, SNS, and A
 
 ## Delete All
 5. If you finished your work and your goal is to delete the whole infrastructure use this command:
+   
    ```
    terraform destroy
    ```
