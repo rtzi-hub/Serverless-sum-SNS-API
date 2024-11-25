@@ -1,5 +1,5 @@
 variable "notification_email" {
   description = "Email address for SNS notifications"
   type        = string
-  default     = "rontzidky@gmail.com"
+  default     = "<Enter the email address for notifications>"
 }
