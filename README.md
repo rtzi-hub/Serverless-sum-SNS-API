@@ -24,8 +24,11 @@ This project demonstrates a serverless architecture using AWS Lambda, SNS, and A
    terraform init
    terraform plan
    terraform apply
-3. Save the API Gateway endpoint from the Terraform output.
-4. Use Postman application to verify that the http API is working propertly
+3. Save the API Gateway endpoint from the Terraform output (You can use this command to reveal the output of this project after applying.)
+   ```
+   terraform output
+   ```
+5. Use Postman application to verify that the http API is working propertly
    Examples of Postman API validation & SNS Notification:
    ![image](https://github.com/user-attachments/assets/f49261b5-25bb-4377-afb6-6eedbf7198a5)
    ![Example-For-SNS-Notification](https://github.com/user-attachments/assets/8154b6c7-070c-4322-b875-375196fdce32)
