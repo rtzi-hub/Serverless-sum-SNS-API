@@ -36,8 +36,7 @@ This project demonstrates a serverless architecture using AWS Lambda, SNS, and A
 
 
 ## Delete All
-5. If you finished your work and your goal is to delete the whole infrastructure use this command:
-   
+5. If you have completed your work and no longer need the infrastructure, you can remove all deployed resources by running the following command:
    ```
    terraform destroy
    ```
