@@ -28,6 +28,7 @@ This project demonstrates a serverless architecture using AWS Lambda, SNS, and A
    ```
    terraform output
    ```
+   * Add you Topic arn to the lambda function from the output and update the zip file
 4. Use Postman application to verify that the http API is working propertly
    Examples of Postman API validation & SNS Notification:
    
