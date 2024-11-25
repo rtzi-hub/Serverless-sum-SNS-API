@@ -25,7 +25,7 @@ def lambda_handler(event, context):
             }
 
         result = sum_calculator(x, y)
-        topic_arn = 'arn:aws:sns:us-east-1:266735819819:CloudBuzz-SNS'
+        topic_arn = 'arn:aws:sns:us-east-1:266735819819:CloudBuzz-SNS' # Add Your Topic arn
 
         if isinstance(result, (float, int)):
             message = f"Your sum of {x} and {y} is: {result}"
